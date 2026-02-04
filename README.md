@@ -22,7 +22,7 @@ _%-  <- chicken
 ```
 ## how to run
 ```bash
-git clone https://github.com/aPpLegUo/chicken_fight.git
+git clone https://github.com/appleguo2015/chicken_fight.git
 cd chicken_fight/cmake-build-debug
 cmake ..
 ./chicken_fight
