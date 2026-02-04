@@ -1,5 +1,3 @@
 # ninja log v5
-198	316	1770176888784086804	chicken_fight	59054dfb0bbf1bf5
-4	198	1770176888670961577	CMakeFiles/chicken_fight.dir/main.cpp.o	85ed8f09e32f797e
-1	165	1770177408660907840	CMakeFiles/chicken_fight.dir/main.cpp.o	85ed8f09e32f797e
 165	264	1770177408754612057	chicken_fight	59054dfb0bbf1bf5
+1	165	1770177408660907840	CMakeFiles/chicken_fight.dir/main.cpp.o	85ed8f09e32f797e
