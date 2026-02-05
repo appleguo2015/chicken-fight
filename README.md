@@ -1,7 +1,7 @@
 # Chicken Fight
 ## key
 - `a d`/`h k`: move left/right
-- ` `: squat
+- `[space]`: squat
 - `q`: quit
 ## entity
 - `chicken`: move left/right, squat
