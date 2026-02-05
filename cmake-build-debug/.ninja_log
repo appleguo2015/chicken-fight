@@ -1,3 +1,7 @@
 # ninja log v5
-165	264	1770177408754612057	chicken_fight	59054dfb0bbf1bf5
 1	165	1770177408660907840	CMakeFiles/chicken_fight.dir/main.cpp.o	85ed8f09e32f797e
+165	264	1770177408754612057	chicken_fight	59054dfb0bbf1bf5
+7	252	1770262373226311020	build.ninja	623401f6c83168d5
+7	252	1770262373226311020	/Users/jerry/cPp/appleguo_s_thing/chicken_fight/cmake-build-debug/cmake_install.cmake	623401f6c83168d5
+2	707	1770262373944568627	CMakeFiles/chicken_fight_ai.dir/AIPlayer/main_ai.cpp.o	b31d319e725dd369
+707	1024	1770262374254622192	chicken_fight_ai	9eca9f9ffba9f16f

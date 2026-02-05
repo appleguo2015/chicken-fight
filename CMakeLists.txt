@@ -11,3 +11,11 @@ add_executable(chicken_fight
         main.cpp
         bullet.h
         drawer.h)
+
+add_executable(chicken_fight_ai
+        AIPlayer/main_ai.cpp
+        AIPlayer/AIController.h
+        chicken.h
+        bullet.h
+        drawer.h
+        game_read.h)

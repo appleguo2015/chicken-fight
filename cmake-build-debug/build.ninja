@@ -77,6 +77,43 @@ build chicken_fight: CXX_EXECUTABLE_LINKER__chicken_fight_Debug CMakeFiles/chick
   TARGET_PDB = chicken_fight.dbg
   TARGET_SUPPORT_DIR = CMakeFiles/chicken_fight.dir
 
+# =============================================================================
+# Object build statements for EXECUTABLE target chicken_fight_ai
+
+
+#############################################
+# Order-only phony target for chicken_fight_ai
+
+build cmake_object_order_depends_target_chicken_fight_ai: phony || .
+
+build CMakeFiles/chicken_fight_ai.dir/AIPlayer/main_ai.cpp.o: CXX_COMPILER__chicken_fight_ai_unscanned_Debug /Users/jerry/cPp/appleguo_s_thing/chicken_fight/AIPlayer/main_ai.cpp || cmake_object_order_depends_target_chicken_fight_ai
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/chicken_fight_ai.dir/AIPlayer/main_ai.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk -mmacosx-version-min=15.7 -fcolor-diagnostics
+  INCLUDES = -I/Users/jerry/cPp/appleguo_s_thing/chicken_fight/.
+  OBJECT_DIR = CMakeFiles/chicken_fight_ai.dir
+  OBJECT_FILE_DIR = CMakeFiles/chicken_fight_ai.dir/AIPlayer
+  TARGET_SUPPORT_DIR = CMakeFiles/chicken_fight_ai.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target chicken_fight_ai
+
+
+#############################################
+# Link the executable chicken_fight_ai
+
+build chicken_fight_ai: CXX_EXECUTABLE_LINKER__chicken_fight_ai_Debug CMakeFiles/chicken_fight_ai.dir/AIPlayer/main_ai.cpp.o
+  CONFIG = Debug
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk -mmacosx-version-min=15.7
+  LINK_FLAGS = -Wl,-search_paths_first -Wl,-headerpad_max_install_names
+  OBJECT_DIR = CMakeFiles/chicken_fight_ai.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = chicken_fight_ai
+  TARGET_PDB = chicken_fight_ai.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles/chicken_fight_ai.dir
+
 
 #############################################
 # Utility command for edit_cache
@@ -112,7 +149,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/jerry/cPp/appleguo_s_thing/chicken_fight/cmake-build-debug
 
-build all: phony chicken_fight
+build all: phony chicken_fight chicken_fight_ai
 
 # =============================================================================
 # Built-in targets

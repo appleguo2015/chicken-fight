@@ -1,3 +1,4 @@
 /Users/jerry/cPp/appleguo_s_thing/chicken_fight/cmake-build-debug/CMakeFiles/chicken_fight.dir
+/Users/jerry/cPp/appleguo_s_thing/chicken_fight/cmake-build-debug/CMakeFiles/chicken_fight_ai.dir
 /Users/jerry/cPp/appleguo_s_thing/chicken_fight/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/jerry/cPp/appleguo_s_thing/chicken_fight/cmake-build-debug/CMakeFiles/rebuild_cache.dir
